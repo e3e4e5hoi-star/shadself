@@ -66,4 +66,4 @@ Technologies used in the project:
 
 *   Python 3.12+ 🐍
 *   ShadPy
-*   ChatGPT
+*   ai API
