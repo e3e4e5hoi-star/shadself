@@ -1,5 +1,5 @@
 <h1 align="center" id="title">🤖 ShadSelf - سلف پیشرفته شاد</h1>
-
+کتابخانه shadpy پرایوت شده به همین دلیل توی همین ریپازتوری کتابخانه قرار داده شده
 <p id="description">ShadSelf یک سلف چندکاره و هوشمند برای پیام‌رسان شاد است که با زبان قدرتمند پایتون ساخته شده. این سلف با هدف کمک به افزایش تعامل، سرگرمی و کارایی کاربران در محیط شاد طراحی شده و قابلیت‌های متنوعی دارد که هم برای مدرسه و هم برای جمع دوستانه کاربردی است.</p>
 
 <p align="center"><img src="https://img.shields.io/badge/python-3.12%2B-blue" alt="shields"><img src="https://img.shields.io/badge/version-0.0.1-brightgreen" alt="shields"><img src="https://img.shields.io/badge/license-MIT-yellow" alt="shields"><img src="https://img.shields.io/badge/support-active-brightgreen" alt="shields"></p>
