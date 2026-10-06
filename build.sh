@@ -1,13 +1,16 @@
 #!/bin/bash
-# Install dependencies
-pip install --upgrade pip
-pip install -r requirements.txt
+set -e
 
-# Extract shadpy if it exists as a zip file
+echo "Installing dependencies..."
+pip install --upgrade pip
+pip install jdatetime httpx
+
+echo "Extracting shadpy..."
 if [ -f "shadpy.zip" ]; then
-    echo "Extracting shadpy.zip..."
-    python -m zipfile -e shadpy.zip .
-    echo "shadpy extracted successfully"
+    python3 -m zipfile -e shadpy.zip .
+    echo "shadpy extracted"
+else
+    echo "WARNING: shadpy.zip not found!"
 fi
 
-echo "Build completed!"
+echo "Build complete!"
